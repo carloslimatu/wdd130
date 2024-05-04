@@ -14,7 +14,6 @@ body {
     --heading-font-weight: 700;
     --heading-font-style: normal;
     --paragraph-font: "Inter", sans-serif;
-    --paragraph-font-weight: 300;
     --nav-background-color: var(--secondary-color);
     --nav-link-color:var(--primary-color);
     --nav-hover-link-color:var(--primary-color);
