@@ -11,8 +11,6 @@ body {
     --accent2-color: #000;
 
     --heading-font: "GFS Neohellenic", sans-serif;
-    --heading-font-weight: 700;
-    --heading-font-style: normal;
     --paragraph-font: "Inter", sans-serif;
     --nav-background-color: var(--secondary-color);
     --nav-link-color:var(--primary-color);
@@ -47,4 +45,7 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+.heading-example {
+    font-family: var(--heading-font);
 }
