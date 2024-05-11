@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&family=Inter&display=swap');
+
+*{
+    max-width: 1000px;
+}
+
+:root {
+    --primary-color: #124166;
+    --secondary-color: #088283;
+    --accent1-color: #FDAE25;
+    --accent2-color: #000;
+
+    --heading-font: "GFS Neohellenic", sans-serif;
+    --paragraph-font: "Inter", sans-serif;
+    --nav-background-color: var(--secondary-color);
+    --nav-link-color:var(--primary-color);
+    --nav-hover-link-color:var(--primary-color);
+    --nav-hover-background-color:var(--accent1-color);
+}
+
+.hero{
+    position: relative;    
+}
+.hero h1, article{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sociallinks{
+    text-decoration: none;
+}
