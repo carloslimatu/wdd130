@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&family=Inter&display=swap');
 
 *{
-    max-width: 1000px;
+    max-width: 700px;
 }
 
 :root {
@@ -18,21 +18,48 @@
     --nav-hover-background-color:var(--accent1-color);
 }
 
-.hero{
-    position: relative;    
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
-.hero h1, article{
-    position: absolute;
-    top: 20px;
-    left: 100px;
+p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
 }
-
-.hero img{
-    display: block;
+.hero {
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 400px; /* Adjust height as needed */
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fits within the container */
 }
 
-.sociallinks{
+.hero-content {
+    position: absolute;
+    top: 0;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* color: white; */
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    background-color: #088283;
+    text-align: center;
+}
+
+.hero-content article {
+    max-width: 70%;
+    margin: 0 auto;
+}
+.hero-content img{
+    display: block;
+    float: right;
+    width: 200;
+}
+a {
     text-decoration: none;
 }
