@@ -28,38 +28,39 @@ p {
 }
 .hero {
     position: relative;
-    width: 100%;
-    height: 400px; /* Adjust height as needed */
 }
 .hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image fits within the container */
-}
-
-.hero-content {
-    position: absolute;
-    top: 0;
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* color: white; */
-}
-
-.hero-content h1 {
-    font-size: 2.5rem;
-    background-color: #088283;
-    text-align: center;
-}
-
-.hero-content article {
-    max-width: 70%;
-    margin: 0 auto;
-}
-.hero-content img{
     display: block;
-    float: right;
-    width: 200;
+    width: 100%;
+    height: auto;
 }
+
+.hero h1 {
+    position: absolute;
+    background-color: #088283;
+    top: 10px;
+    left: 220px;
+}
+
+.hero article{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+}
+
+.hero article img{
+    width: 200px;
+    height: 150px;
+    float: right;
+}
+
 a {
     text-decoration: none;
+}
+
+.sociallinks a img{
+    width: 30px;
 }
