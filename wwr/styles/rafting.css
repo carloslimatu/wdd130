@@ -106,5 +106,6 @@ footer p{
     justify-self: center;
 }
 .sociallinks a img{
+    justify-self: right;
     width: 30px;
 }
