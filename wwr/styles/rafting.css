@@ -154,6 +154,9 @@ footer p{
     display: grid;
     grid-template-columns: 44% 56%;
 }
+.contact h2{
+    text-align: center;
+}
 form {
     width: 370px;
     height: 500px;
@@ -189,9 +192,14 @@ fieldset {
 }
 .contactinfo {
     display: grid;
-    grid-template-rows: 140px 60px 30px 30px 1fr;
+    grid-template-rows: 80px 60px 30px 30px 1fr;
 }
 iframe {
     width: 250px;
     height: 150px;
+}
+h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 2rem;
 }
