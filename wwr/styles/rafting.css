@@ -195,8 +195,8 @@ fieldset {
     grid-template-rows: 80px 60px 30px 30px 1fr;
 }
 iframe {
-    width: 250px;
-    height: 150px;
+    width: 260px;
+    height: 170px;
 }
 h1 {
     text-align: center;
