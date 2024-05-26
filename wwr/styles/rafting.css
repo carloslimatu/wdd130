@@ -123,7 +123,7 @@ a {
 footer{
     padding: 20px;
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 100px 1fr 150px;
     background-color: var(--accent1-color);
     align-items: center;
 }
