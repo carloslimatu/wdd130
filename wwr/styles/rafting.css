@@ -264,3 +264,54 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+.home {
+    position: relative;
+}
+.home img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.home h1 {
+    position: absolute;
+    background-color: rgb(238, 238, 238, 0.3);
+    top: 10px;
+    left: 100px;
+}
+.info {
+    display: grid;
+    width: 700px;
+    height: 340px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    padding: 5px 0;
+    background-color: rgba(253,174,37, 0.75)
+}
+.grid-item {
+    width: 175px;
+    height: 170px;
+}
+.info img{
+    width: 175px;
+    height: 100%;
+}
+.verticalimage{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.info form{
+    width: 350px;
+    grid-column: 3/5;
+}
+.info p{
+    text-align: center;
+}
+.info form input{
+    padding: 2px;
+    font-size: 0.8rem;
+}
+.grid-item button{
+    padding: 5px;
+    font-size: 1;
+}
