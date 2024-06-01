@@ -272,6 +272,13 @@ th {
     width: 100%;
     height: auto;
 }
+.home nav {
+    position: absolute;
+    background-color: rgb(238, 238, 238, 0.6);
+    top: 140px;
+    left: 240px;
+    font-size: 1.8rem;
+}
 .home h1 {
     position: absolute;
     background-color: rgb(238, 238, 238, 0.3);
